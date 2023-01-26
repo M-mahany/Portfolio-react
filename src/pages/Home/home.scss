@@ -1,0 +1,47 @@
+.home{
+    position: relative;
+    z-index: 3;
+    .homeContainer{ 
+    .backToTopBttn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+position: fixed;
+background-color: transparent;
+border: 1px solid orangered;
+color: orangered;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+right: 30px;
+bottom: 40px;
+z-index: 3;
+animation: movebtn 3s ease-in-out infinite;
+transition: all .5s ease-in-out;
+cursor: pointer;
+&:hover{
+    animation: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+@keyframes movebtn {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+    }
+}
+    
+}
