@@ -1,7 +1,11 @@
 # Live Demo to Preview Code:
-[https://flexdev.tech)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Preview Image:
+![Slide1](https://user-images.githubusercontent.com/106715042/223656831-516c738d-7ec3-4b59-aff1-7ee49baf3d08.jpg)
+
+
+Website Link:
+[https://flexdev.tech)
 
 
 # Getting Started with Create React App
